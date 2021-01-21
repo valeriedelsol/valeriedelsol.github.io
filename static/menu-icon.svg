@@ -1,0 +1,12 @@
+<svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="52" height="50" viewBox="0 0 52 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #35398b;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" width="52" height="10" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-1" y="20" width="52" height="10" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-1" y="40" width="52" height="10" rx="5" ry="5"/>
+</svg>

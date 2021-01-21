@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Arial Rounded MT Bold Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Arial Rounded MT Bold Regular"),
+    url("ARLRDBD_0.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Linden Hill Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Linden Hill Regular"),
+    url("LindenHill-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Linden Hill Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Linden Hill Italic"), url("LindenHill-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Palatino Linotype"), url("pala.woff") format("woff");
+}
+
