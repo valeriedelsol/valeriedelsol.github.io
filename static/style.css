@@ -167,12 +167,12 @@ h5 {
   text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   text-align: right;
   font-size: 2em;
-  padding: 30px 0;
+  padding: 30px 1em;
   font-family: "Linden Hill Regular", serif;
 }
 @media (max-width: 800px) {
   #slideshow #slogan {
-    width: 70%;
+    width: 80%;
     font-size: 1.6em;
   }
 }
