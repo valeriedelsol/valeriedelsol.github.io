@@ -1,11 +1,21 @@
 $(document).ready(function(){
+    var start_text = $("#slideshow #slogan").html();
+    var start_background = $("#slideshow").css("background-image");
+    console.log(start_text);
+    console.log(start_background);
     $("#slideshow .circle").hover(function() {
         var text = $(this).attr("data");
         var background = "url('" + $(this).attr("data-background") + "')";
-        $("#slideshow #slogan").hide().html(text).fadeIn("slow");
-        $("#slideshow").css("background-image", background);
+        var current_text = $("#slideshow #slogan").html();
+        if (current_text > text || current_text < text) {
+            $("#slideshow #slogan").hide().html(text).fadeIn("slow");
+            $("#slideshow").css("background-image", background);
+        }
     }, function() {
-        $("#slideshow #slogan").hide().html("The way to get started is to quit talking and begin doing.<br>- Walt Disney").fadeIn("slow");
-        $("#slideshow").css("background-image", "url('static/slideshow/base.jpg')");
+        var current_text = $("#slideshow #slogan").html();
+        if (current_text > start_text || current_text < start_text) {
+            $("#slideshow #slogan").hide().html(start_text).fadeIn("slow");
+            $("#slideshow").css("background-image", start_background);
+        }
     });
 });
